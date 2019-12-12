@@ -1,0 +1,12 @@
+---
+#operatorConfiguration
+operatorname: "lek4.com"
+
+#DNS Management
+recordname: "vartest03"
+value: "127.0.0.1"
+type: "A"
+proxied: "false"
+ttl: 120
+priority: 10
+state: "present"

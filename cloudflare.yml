@@ -1,0 +1,10 @@
+---
+- name: Configure Cloudflare DNS
+  hosts: localhost
+  gather_facts: false
+  become: false
+  vars_files:
+    - variables.yml  
+  roles:
+    - ansible-cloudflare-dns
+
